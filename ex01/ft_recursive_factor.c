@@ -4,7 +4,7 @@
 int ft_recursive_factorial(int nb){
 	if(nb == 0){
 		return (1);
-	} else if (nb > 12 || nb < 0){
+	} else if (nb > 100 || nb < 0){
 		return(0);
 	}
 
@@ -13,12 +13,9 @@ int ft_recursive_factorial(int nb){
 	}
 }
 
-int main(){
-	int nb;
-	nb = 2;
-	
-	return(0)
-}
+//int main(){
+//	int nb;
+//	nb = 2;
 
-
-
+//	return(0)
+//}
